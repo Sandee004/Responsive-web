@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="homepage.css" />
+</head>
+<body>
+    <div id="portrait-mode">
+        <div class="nav-bar">
+            <span class="logo">PraZoz</span>
+            <div class="menu">
+                <button class="menu-btn">Menu</button>
+                <div class="panel">
+                    <a href="#"> Home </a>
+                    <a href="#"> About </a>
+                    <a href="#"> Articles </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="body-portrait-view">
+            <p class="info-1">
+                Web Design & Dev. Course
+            </p>
+
+            <p class="info-2">
+                Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers has become ever-increasingly important.
+            </p>
+
+            <p class="info-2">
+                A web designer works on the appearance, layout, and, in some cases, content of a website. Appearance, for instance, relates to the colors, font, and images used. Layout refers to how information is structured and categorized. A good web design is easy to use, aesthetically pleasing, and suits the user group and brand of the website.
+            </p>
+
+            <p class="info-2">
+                Web design is a specialization of the design stream. They make use HTML, CSS, SCSS, WYSIWYG editing software, markup validators etc to create design elements.
+            </p>
+
+            <a href="https://www.google.com/"><button class="join-button">Join us</button></a>
+        </div>
+
+
+        <div class="login-portrait">
+            <h2>Login Here</h2>
+            <p class="form-heading">
+                Email address here
+            </p>
+            <input type="email" class="form-input-1">
+
+            <p class="form-heading">
+                Enter Password
+            </p>
+            <input type="password" class="form-input-2">
+            <a href="" class="login-button-link">Login</a>
+
+            <p class="create-account">
+                Don't have an account?
+            </p>
+            <p class="create-account-2">
+                <a href="https://www.google.com" class="account-link">Sign up</a> here
+            </p>
+            <p class="create-account-2">
+                Login with
+            </p>
+            <!--<img class="facebook" src="/storage/emulated/0/Pictures/Eraser/1653741387308.png">-->
+            <img class="instagram" src="/storage/emulated/0/Download/new-instagram-logo-white-border-icon-png-large.png">
+            <img class="twitter" src="/storage/emulated/0/Pictures/Eraser/1653741359218.png">
+            <img class="google" src="/storage/emulated/0/Download/white-google-logo.png">
+            <img class="skype" src="/storage/emulated/0/Download/skype-xxl.png">
+        </div>
+    </div>
+
+
+    <!--For landscape-->
+    <div id="landscape-mode">
+        <div class="nav-bar-2">
+            <ul class="list-2">
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Design</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+
+        <!--For laptop--><!--
+                        <div id="laptop-mode">
+                            <div class="nav-bar">
+                                <span class="logo">PraZoz</span>
+                                <ul>
+                                    <li class="tabs">Home</li>
+                                    <li class="tabs">About</li>
+                                    <li>Service</li>
+                                    <li>Design</li>
+                                    <li>Contact</li>
+                                </ul>
+                            </div>-->
+
+        <script>
+            var acc = document.getElementsByClassName("menu-btn");
+            var i;
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        </script>
+    </body>
