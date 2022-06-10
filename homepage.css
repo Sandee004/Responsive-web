@@ -4,7 +4,7 @@
 }
 @media only screen and (orientation: portrait) {
     body {
-        background-image: url('/storage/emulated/0/Download/sharad-bhat-Z4s2K8GQ5QE-unsplash.jpg');
+        background-image: url('https://github.com/Sandee004/Responsive-web/blob/8416cfb106ec38b6481bfd629f487e1f523ef672/sharad-bhat-Z4s2K8GQ5QE-unsplash.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         margin: 3px 12px 0 8px;
