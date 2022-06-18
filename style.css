@@ -166,7 +166,7 @@
 
 @media screen and (orientation: landscape) {
     body {
-        background-image: url('https://github.com/Sandee004/Responsive-web/blob/34e56cec511def219289334c47eed68fc2f55b8d/olivier-guillard-dwKZyTMTr7o-unsplash.jpg');
+        background-color: darkblue;
         background-repeat: no-repeat;
         background-position: center;
         background-size: 1020px
